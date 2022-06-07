@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: auto;
+    background-image: url(imgs/ucrania.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fundo {
+    background-image: linear-gradient(to right top, #787878e0, #595959e0, #3c3c3ce1, #212121e3, #000000dc);
+    width: 1200px;
+    height: 120vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.maxweigth {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.imagens {
+    width: 33%;
+    border-style: solid;
+}
+
+.title {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+.flexDisplay {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 18px;
+}
+
+#submit {
+    font-size: 25px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(30, 200, 0);
+    color: #FFFFFF;
+
+}
+
+.white-font {
+    color: #FFFFFF;
+}
+
+input {
+    border-radius: 7px;
+    font-family: monospace;
+    height: 40px;
+    font-size: larger;
+    border-style: double;
+}
+
+.topo {
+    width: 100%;
+    height: 30px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+}
+
+#brasil, #usa {
+    width: 30px;
+    margin-left: 5px;
+}
+
+#boasVindas {
+    color: black;
+    vertical-align: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#selectLanguage {
+    color: black;
+    vertical-align: top;
+}
